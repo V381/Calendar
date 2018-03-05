@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    box-shadow: 5px 5px 5px black;
+    font-size: 1em;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;  
+}
+
+td {
+    padding: 15px;
+}
+
+.currentMonthDates {
+    background-color: gray;
+    color: white;
+}
+
+.notCurrentMonthDates { 
+    background-color: green;
+}
+
+.today {
+    border: 3px solid green;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.prevMonthDates {
+    background-color: gainsboro;
+}
+
+p {
+    display: inline-block;
+    margin: 0;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    box-shadow: 5px 5px 5px black;    
+    transition: 0.5s ease-in;
+    display: inline-block;
+    margin: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+header {
+    background: #191919;
+    box-shadow: 2px 2px 2px #464646;
+    width: 100%;
+    margin: 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px;
+    font-size: 2.5em;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+.weekend {
+    background: red;
+    color: white;
+}
+
+td:last-child {
+    background-color: darkred;
+    color: white;
+}
+
+td:first-child {
+    background-color: darkred;
+    color: white;
+}
+
+.nextMonthDates {
+    background-color: gainsboro;
+}
+
+.selectedDay {
+    border: 1px solid blue;
+}
